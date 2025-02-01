@@ -10,44 +10,54 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <body>
-    <header>
-        <div class="navbar bg-base-100">
-
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
-                </ul>
-              </div>
-              <div class="navbar-start">
-              <img src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Product</a></li>
-                <li>
-                    <summary>Services</summary>
-                </li>
-                <li><a>Contact us</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end gap-5">
-              <a class="btn btn-sm w-24 bg-white">login</a>
-              <a class="btn btn-sm w-24 bg-green-600">Register</a>
-            </div>
+    <header class="bg-slate-50">
+      <nav>
+        <div class="flex justify-around">
+  
+        <div class="mt-10">
+          <img class="hidden md:grid" src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
+          <img class="md:hidden" src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/logo-footer.png" alt="">
+        </div>
+        <div class="mt-14 hidden md:grid">
+          <ul class="flex gap-8">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="flex gap-10">
+          <div class="w-5 h-5 mt-16 gap-1 hidden md:flex">
+            <img class="hidden md:grid" src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/search.png" alt="">
+            <img class="hidden md:grid" src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/cart.png" alt="">
           </div>
+          <div class="mt-14 hidden md:flex">
+            <button class="btn btn-sm bg-white border-green-600 w-24">Login</button>
+            <button class="btn btn-sm bg-green-600 w-24 text-white">Register</button>
+          </div>
+          <div class="md:hidden">
+            <img class="w-10 mt-14" src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/menu.png" alt="">
+          </div>
+        </div>
+      </div>
+      </nav>
+
+
+      <!-- hero -->
+       <section class="mt-32">
+        <div class="">
+          <!-- text section -->
+           <div class="text-center">
+            <h1 class="text-4xl font-bold mb-8">Freshness <span class="text-green-500">You Can <br>
+              Count</span> On, Prices You’ll Love!</h1>
+              <p class="text-gray-400 hidden md:grid">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br> staples, we’ve got you covered every day!</p>
+              <p class="text-gray-400 md:hidden">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+           </div>
+           <!-- image section -->
+            <div class="lg:ml-32">
+              <img src="./B11-A3-Living-Lab-main/Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </div>
+       </section>
     </header>
     <main>
 
